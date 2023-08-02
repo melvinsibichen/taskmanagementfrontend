@@ -1,0 +1,25 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-5">
+            <div class="row">
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+                        <h1 class="text-primary">Add Complaint</h1>
+                    </div>
+                    <div class="row mt-5 d-flex justify-content-center">
+                        <div style="width: 50%;" class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mb-4 d-flex flex-column">
+                            <label for="" class="form-label text-secondary">Report Tasks</label>
+                            <input type="text" class="form-control" name="Tasks" [(ngModel)]="Tasks" placeholder="Enter Tasks...">
+                        </div>
+                        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-4 d-flex justify-content-center mt-5">
+                            <button class="btn btn-primary p-2 mx-3" (click)="readValues()">Add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-5 d-flex justify-content-center">
+                    <img height="400px" src='assets/images/add_task.svg' alt="">
+                </div>
+        </div>    
+    </div>
+</div>
+

@@ -1,0 +1,28 @@
+<div class="bg-image"
+    style="background-image: url('https://wallpapercave.com/wp/wp2508376.jpg'); height: 100vh; width: 100vw;">
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-l-12 col-xl-12 col-xxl-12">
+            <div class="row mt-5">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center mb-5">
+                    <h1>User Login</h1>
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">Username</label>
+                    <input type="text" class="form-control" name="username" [(ngModel)]="username">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mb-5">
+                    <label for="" class="form-label">Password</label>
+                    <input type="password" class="form-control" name="password" [(ngModel)]="password">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+                    <button class="btn btn-primary" (click)="readValues()">Login</button>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center mt-5">
+                    <button class="btn btn-secondary mx-5" routerLink="/">Admin Login</button>
+                    <button class="btn btn-secondary" routerLink="/userReg">User Registration</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
